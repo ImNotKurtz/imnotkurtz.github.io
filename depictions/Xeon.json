@@ -1,0 +1,110 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#000000",
+    "headerImage": "https://zeex-xd.github.io/images/LiaDive.png",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "title": "Description"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Zeppelin alternative for iPhone X-stlye status bar. You can put Zeppelin theme and text or emoji in front of the carrier text and time on the status bar. You can also change your carrier name."
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Features"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Custom GIF, Images In your status bar!"
+                },
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developers",
+                    "text": "Soongyu Kwon"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.1.3"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "11+"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "iOS Jailbreak Community",
+                            "action": "https://chat.whatsapp.com/EXL1Lhh2I0THo95tQv7Izg",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        
+        {
+            "tabname": "Change Log",
+            "class": "DepictionStackView",
+            "tintColor": "#000000",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "1.1.3"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Bug fixes."
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial release"
+                }
+            ]
+        }
+    ]
+}

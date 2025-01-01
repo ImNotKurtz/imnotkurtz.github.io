@@ -1,0 +1,110 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#000000",
+    "headerImage": "https://zeex-xd.github.io/images/LiaDive.png",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "title": "Description"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Background wallpaper in whatsapp"
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Features"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Custom background images \n- Custom Opacity \n- Custom blur"
+                },
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developers",
+                    "text": "Nightwind"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "0.0.1-39+debug"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 15-16"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "iOS Jailbreak Community",
+                            "action": "https://chat.whatsapp.com/EXL1Lhh2I0THo95tQv7Izg",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        
+        {
+            "tabname": "Change Log",
+            "class": "DepictionStackView",
+            "tintColor": "#000000",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.0.1-39+debug"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Bug fixes."
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "0.0.1"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial release"
+                }
+            ]
+        }
+    ]
+}

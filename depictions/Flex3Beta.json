@@ -1,0 +1,110 @@
+{
+    "minVersion": "0.1",
+    "class": "DepictionTabView",
+    "tintColor": "#000000",
+    "headerImage": "https://zeex-xd.github.io/images/LiaDive.png",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "title": "Description"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Develop your own tweaks and share them on the Flex Community Cloud"
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Features"
+                },
+                
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Hook editor \n- Use beta 98 to process Frameworks \n- Use beta 56 to process apps"
+                },
+                
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developers",
+                    "text": "John Coates"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "Beta98"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 9.0+"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionTableButtonView",
+                            "title": "iOS Jailbreak Community",
+                            "action": "https://chat.whatsapp.com/EXL1Lhh2I0THo95tQv7Izg",
+                            "openExternal": true
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        
+        {
+            "tabname": "Change Log",
+            "class": "DepictionStackView",
+            "tintColor": "#000000",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Beta 98"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Better to process Frameworks"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "title": "Beta 56"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Better to process applications"
+                }
+            ]
+        }
+    ]
+}
