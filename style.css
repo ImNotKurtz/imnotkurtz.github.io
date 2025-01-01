@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #400dd2, #000, #800080);
+    background-size: 300% 300%;
+    animation: gradientAnimation 8s ease infinite;
+    color: white;
+    overflow: hidden;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    text-align: center;
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    animation: iconBounce 5s ease infinite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.links {
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    position: relative;
+}
+
+.links a:hover {
+    transform: scale(1.2);
+}
+
+.links a::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+
+.links a:hover::after {
+    width: 100%;
+}
+
+.links a.sileo:hover {
+    color: #e1306c;
+}
+
+.links a.instagram:hover {
+    color: #e1306c;
+}
+
+.links a.sileo:hover {
+    color: #e1306c;
+}
+
+.links a.youtube:hover {
+    color: #ff0000;
+}
+
+.links a.whatsapp:hover {
+    color: #25d366;
+}
+
+.links a.pinterest:hover {
+    color: #bd081c;
+}
+
+.links a.twitter:hover {
+    color: #1da1f2;
+}
+
+.links a.telegram:hover {
+    color: #0088cc;
+}
+
+.links a p {
+    margin-top: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover p {
+    color: #ffffffcc;
+}
+
+.links a i, .profile-img {
+    animation: iconBounce 5s ease infinite;
+}
+
+@keyframes iconBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
