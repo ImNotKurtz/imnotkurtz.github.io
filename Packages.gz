@@ -1,0 +1,406 @@
+Package: emt.paisseon.xinamine
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: Sudo + Paisseon
+Installed-Size: 564
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 15.0)
+Filename: debs/emt.paisseon.xinamine_0.0.5_iphoneos-arm64.deb
+Size: 70006
+MD5sum: 7f8ed32b1fd837e82809b7f2b2600998
+SHA1: cca516b753396474b40a2d686795801a528a107a
+SHA256: 84c09be66731624a44a2f39b2acb8e90db6130cd14874bc1e127aafe7332c6c4
+Section: Utilities
+Description: Add Xina tweak compatibility to Dopamine
+Author: Sudo + Paisseon
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Xinamine.json&name=Xinamine&dev=Zeex
+Icon: https://zeex-xd.github.io/icons/Xinamine.png
+Name: Xinamine
+Sileodepiction: https://zeex-xd.github.io/depictions/Xinamine.json
+
+Package: zeex.patcher.xinam1ne
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Zeex
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/XinaminePatcher.json&name=Xinamine&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/XinaminePatcher.json
+Name: Xinam1ne Script
+Depends: mobilesubstrate, firmware (>= 15.0), file, fakeroot, ldid, libclang-cpp14, llvm-14, llvm-14-runtime, odcctools, emt.paisseon.xinamine
+Filename: debs/zeex.patcher.xinam1ne_1.0_iphoneos-arm64.deb
+Size: 4344
+MD5sum: 424be48f494855b13d231660365c4c6a
+SHA1: b6486b4de3d28f7634ee7ea443aa78c306bdb2e3
+SHA256: 477d88e512aa7d93ed27edbe98066888ab51c3877cda832459bb0100caf136cf
+Description: Xinamine Script, use the Filza from sileo (troll store one will not work)
+Section: Utilities
+Author: Paisseon, Sudo, NoW4U2Kid
+Icon: https://zeex-xd.github.io/icons/Xinamine.png
+
+Package: repo.zeex.wtspatch
+Maintainer: Zeex
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/wtspatch.json&name=wtspatch&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/wtspatch.json
+Name: wtspatch
+Icon: https://zeex-xd.github.io/icons/wtspatchicon.png
+Description:  Removes banner ads from Watusi 3 for WhatsApp and WhatsApp Business
+Author: ijm
+Section: Tweaks
+Depends: mobilesubstrate, emt.paisseon.xinamine (>= 0.0.5)
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Filename: debs/zeex.wtspatch_1.0.1_iphoneos-arm64.deb
+Size: 4354
+MD5sum: d1b626332e2113fc87834c2b87f8f5ac
+SHA1: 25cae1ec6c40a72d290cb4a264ad64590848d902
+SHA256: e4a9c8c0e7e5306defb479676ecc1c5c1101de10526ae285f54f889176750ba0
+
+Package: Flex3beta
+Icon: https://zeex-xd.github.io/icons/Flex.png
+Name: Flex 3 Beta
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Flex3Beta.json&name=Flex&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/Flex3Beta.json
+Depends:firmware (>= 9.0)
+Recommended: com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Version: 1:3~Beta98
+Architecture: iphoneos-arm64
+Description: Flex 3 beta 98
+Maintainer: John Coates
+Author: John Coates
+Section: Tweaks
+Filename: debs/Flex3beta_13~Beta98_iphoneos-arm64.deb
+Size: 10051964 
+MD5sum: c7873e112e5238aa860611ac6bd22447
+SHA1: 5534bf6008c3cee8030a28f77a998f9c6d7aee6a
+SHA256: 1ba7fac6f88eacd79f87c18ef1ead00576e232d660cdcd5b266c2115ed510f5a
+
+Package: Flex3beta
+Name: Flex 3 Beta 56
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Flex3Beta.json&name=Flex&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/Flex3Beta.json
+Depends:firmware (>= 9.0)
+Recommended: com.rpetrich.rocketbootstrap
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Version: 1:3~Beta56
+Architecture: iphoneos-arm64
+Description: Flex 3 beta 56
+Maintainer: John Coates
+Author: John Coates
+Section: Tweaks
+Icon: https://zeex-xd.github.io/icons/Flex.png
+Filename: debs/Flex3beta_13~Beta56_iphoneos-arm64.deb
+Size: 16812876 
+MD5sum: bc472cecf489005ecfbc6ddd2043c2f4
+SHA1: a9bf1b40abf1ca4352ea7db9a1f6467d2d06d514
+SHA256: baaafa0c794199e125653131d9994e20cd4f31cb266a702d66b5949481938c1a
+
+Package: com.miro.rgboard
+Name: RGBoard
+Depends: firmware (>=12.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), com.creaturesurvive.libcscolorpicker, emt.paisseon.xinamine (>= 0.0.5)
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/RGBoard.json&name=RGBoard&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/RGBoard.json
+Description: Razer Chroma RGB keyboard.
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Author: MiRO <tweaks_support@miro92.com>
+Section: Tweaks
+Tag: purpose::extension, compatible_min::ios12, compatible_max::ios13.6
+Version: 1.0.5
+Icon: https://zeex-xd.github.io/icons/RGBoardIcon.png
+Installed-Size: 680
+Filename: debs/com.miro.rgboard_1.0.5_iphoneos-arm64.deb
+Size: 280040 
+MD5sum: 9be5595e1b29326292ccfdf82d49b2b1
+SHA1: 1982cb8d5d0cf6f1c7382aabe051e1cca979bda1
+SHA256: 9288107b1bd1549dbee10369222948189d54d2e1b5c7723bde1b0af080c4a9ea
+
+Package: com.creaturesurvive.libcscolorpicker
+Name: libCSColorPicker
+Architecture: iphoneos-arm64
+Depiction: https://creaturesurvive.github.io/repo/cydia/libcscolorpicker/depiction/
+Description: A minimal color picker library for developers
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Author: CreatureSurvive <support@creaturecoding.com>
+Section: System
+Version: 1.0
+Installed-Size: 492
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0_iphoneos-arm64.deb
+Size: 87200
+MD5sum: 679ba1584845139770825c0bdceeaec0
+SHA1: 27b7a784b41b26bcea98fac1284a7adbcf7da966
+SHA256: 2e1479548eee3a84661a7625e2c412ddbdcff550c2a5414c0de72e8a8911169d
+
+Package: com.miguelaka95.bettercc
+Name: BetterCC
+Version: 0.0.5
+Icon: https://zeex-xd.github.io/icons/BetterCC.png
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/BetterCC.json&name=BetterCC&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/BetterCC.json
+Section: Tweaks
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport, emt.paisseon.xinamine (>= 0.0.5)
+Installed-Size: 1828
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Maintainer: Miguelaka95 <miguelaka95@gmail.com>
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Filename: debs/com.miguelaka95.bettercc_0.0.5_iphoneos-arm64.deb
+Size: 149468
+MD5sum: e8617ceeab4a930f9e56887813d562db
+SHA1: cea69cc4e8864e9254a8e39a986cad7623fb6be4
+SHA256: 4a5ff86faa5923e8a471ed2d2ef01533cb72b012c3f6fd89e8e5e794f8c835b7
+
+Package: com.haoict.tiktokgod
+Name: TikTok God
+Icon: https://zeex-xd.github.io/icons/IconTikTokGod.png
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/TikTokGod.json&name=TikTokGod&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/TikTokGod.json
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12), emt.paisseon.xinamine (>= 0.0.5)
+Architecture: iphoneos-arm64
+Description: The best tweak for TikTok app.
+ The best tweak for TikTok app.
+ Change log: https://github.com/haoict/tiktok-god/releases
+ . 
+ Features:
+ - Remove Ads
+ - Download without watermark
+ - Auto scroll to next video
+ - Change Region (may not work for iPad and some devices)
+ - Show progress bar (for fast forward or rewind video)
+ - Can hide UI (view video in full screen)
+ - Bypass jailbreak detection (make like and follow work)
+ - Support iOS 12 - 14 & latest TikTok version
+ . 
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ . 
+ Thanks a ton
+Maintainer: Hao Nguyen
+Author: Hao Nguyen
+Section: Tweaks
+Version: 4.0.0
+Installed-Size: 420
+Filename: debs/com.haoict.tiktokgod_4.0.0_iphoneos-arm64.deb
+Size: 53516
+MD5sum: d1ea7031ff83d2502427a27f33dbca9e
+SHA1: 26901d38f5a725721d617ba8dbfc065b46e044b1
+SHA256: 00fc9a5ce2298e1eec4bfecb7d198b5153bde2f0f171c2f0cfaee74c199d5b71
+
+Package: com.haoict.libhdev
+Name: libhdev
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), emt.paisseon.xinamine (>= 0.0.5)
+Architecture: iphoneos-arm64
+Description: This is a developer library for better preferences and useful utilities.
+ This is a developer library for better preferences and useful utilities.
+ . 
+ Change log: 
+ - v4.8.1: Minor improvement
+ - v4.8.0: Improve performance & reduce package size
+ - v4.7.0: Improve media download & fix preferences cell color
+ . 
+ Github: https://github.com/haoict/libhdev-public
+ . 
+ © 2021 haoict
+Maintainer: Hao Nguyen <hao.ict56@gmail.com>
+Author: Hao Nguyen <hao.ict56@gmail.com>
+Section: System
+Tag: role::developer
+Version: 4.8.1
+Installed-Size: 316
+Filename: debs/com.haoict.libhdev_4.8.1_iphoneos-arm64.deb
+Size: 46156 
+MD5sum: 2952ccd8987a170c8cec664a54e8772d
+SHA1: 887405c28373968ba06c8389ab392ea490154de7
+SHA256: 3694590c12f7dd212955eb06ffde287b9192b9869dc4e23417bcd4c90a4ffa4d
+
+Package: com.nightwind.whatsappbackground
+Name: WhatsAppBackground
+Description: Background wallpaper in whatsapp
+Icon: https://zeex-xd.github.io/icons/WhatsAppBackgroundIcon.png
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/WhatsAppBackground.json&name=WhatsAppBackground&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/WhatsAppBackground.json
+Maintainer: Nightwind
+Author: Nightwind
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Architecture: iphoneos-arm64
+Version: 0.0.1-39+debug
+Installed-Size: 360
+Filename: debs/com_nightwind_whatsappbackground_0_0_1_39+debug_iphoneos_arm64.deb
+Size: 15840
+MD5sum: d9b993b798e0f8d6340c71d4e740fc08
+SHA1: b75f0805baa0419a0a71eb42e06e2c074ab0fa65
+SHA256: 19fe92d70b2f36bc3cf5767bbd339e8076198b9567fb9f7d56c019f7ac4bbc93
+
+Package: com.muirey03.libimagepicker
+Name: libimagepicker
+Depends:
+Description: A simple library for choosing images in preference bundles.
+Maintainer: Muirey03
+Author: Muirey03
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Installed-Size: 168
+Filename: debs/com.muirey03.libimagepicker_1.0.4_iphoneos-arm64.deb
+Size: 10038
+MD5sum: 0675f412d5c39c45d6daef027f67cc8d
+SHA1: 67b603bb1437617b1d469b5626b51c0b60a53fb0
+SHA256: cd96406dc235ec0c27cdc1335e9aaa02c20608e0f6ca6304a0bbe83344a7f5a1
+
+Package: com.rpetrich.rocketbootstrap
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), emt.paisseon.xinamine (>= 0.0.5)
+Name: RocketBootstrap
+Architecture: iphoneos-arm64
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: System
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Version: 1.0.10~beta1
+Installed-Size: 596
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm64.deb
+Size: 40732
+MD5sum: c0912e720ea64f6f28d476a07e2dca9d
+SHA1: 83461d92371b71c2e916d7929c9e55b4dfc2096f
+SHA256: 3b5bb3364a2fad84a54d6007b1588cfa69262a187b36126c77ea8b8c0c9eb837
+
+Package: com.peterdev.xeon
+Name: Xeon Lite
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), cy+cpu.arm64, com.rpetrich.rocketbootstrap (>= 1.0.7~beta1), com.muirey03.libimagepicker, emt.paisseon.xinamine (>= 0.0.5)
+Architecture: iphoneos-arm64
+Description: Supercharge status bar!
+Provides: com.alexzielenski.zeppelin
+Maintainer: Soongyu Kwon <support@soongyu.me>
+Author: Soongyu Kwon <support@soongyu.me>
+Icon: https://github.com/s8ngyu/Xeon/blob/master/xeonprefs/Resources/icon@2x.png?raw=true
+Section: Tweaks
+Version: 1.1.3
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Xeon.json&name=Xeon&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/Xeon.json
+Installed-Size: 2692
+Filename: debs/com.peterdev.xeon_1.1.3_iphoneos-arm64.deb
+Size: 859984
+MD5sum: f1b2c942656148844a9d8384a755fec8
+SHA1: 022a20e6c4568f9600f9b6f89ec0596ad92762b0
+SHA256: 20d723584798fd6c55cbf1d65a49c808ace3901c48ed5b954a0375e41428cf16
+
+Name: ChromaHomeBarX
+Package: com.afnanahmad.chromahomebarx
+Priority: optional
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, emt.paisseon.xinamine (>= 0.0.5)
+Version: 0.4
+Architecture: iphoneos-arm64
+Description: Razer Chroma insprird HomeBar coloring tweak for iPhone X, also works with LittleX.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=chromahomebarxDp
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/ChromaHomeBarX.json&name=ChromaHomeBarX&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/ChromaHomeBarX.json
+Sponsor: thebigboss.org <http://thebigboss.org>
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Afnan Ahmad <afnanahmaddd@gmail.com>
+Section: Tweaks
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Installed-Size: 642
+dev: afnanahmad
+Icon: https://zeex-xd.github.io/icons/ChromaHomeBarXIcon.png
+Filename: debs/com.afnanahmad.chromahomebarx_0.4_iphoneos-arm64.deb
+Size: 103604 
+MD5sum: 715b06c1be45f8f1288698d9ad38dbc4
+SHA1: 9fe0c21925e271ae9ac18f53ab808b14c791f3f6
+SHA256: 31bba1cac30541e50608ec8c22a9853299a4bb79519c930fce3d19fe0464ed97
+
+Package: me.conorthedev.dotto+
+Name: dotto+
+Depends: mobilesubstrate, preferenceloader, firmware (>=13.0), me.conorthedev.libappearancecell, ws.hbang.alderis | org.thebigboss.libcolorpicker, emt.paisseon.xinamine (>= 0.0.5)
+Architecture: iphoneos-arm64
+Description: Notifications, your style.
+Maintainer: ConorTheDev <conorthedev@gmail.com>
+Author: ConorTheDev & Mirac
+Section: Tweaks
+Version: 1.0.6
+Filename: debs/me.conorthedev.dotto+_1.0.6_iphoneos-arm64.deb
+Size: 79676 
+MD5sum: a9c9c47f687c8b0ec38c1fc68954056f
+SHA1: 23476647a642662f073364703b3e47f9df634af5
+SHA256: d89fcffd1fbce926384019c02c84b28a24adb2eca1b6806abc307d655739e528
+Icon: https://zeex-xd.github.io/icons/Dotto.png
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Dotto.json&name=Dotto&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/Dotto.json
+
+Package: me.conorthedev.libappearancecell
+Name: libappearancecell
+Architecture: iphoneos-arm64
+Description: A library for that allows developers to use an iOS 13-style appearance selector in their Preferences.
+Maintainer: ConorTheDev <conorthedev@gmail.com>
+Author: ConorTheDev <conorthedev@gmail.com>
+Section: System
+Tag: role::developer
+Version: 1.0.3
+Installed-Size: 204
+Filename: debs/me.conorthedev.libappearancecell_1.0.3_iphoneos-arm64.deb
+Size: 15748 
+MD5sum: 216c0546744d4ab8e0863ec53fe93bb1
+SHA1: 77948a3ecafef1f45c20962354d2e0e9c57cf00f
+SHA256: 5217fc444782b12ae3e9805898dc6c1e0f808ed1eef8ca0331036c16252006f1
+
+Package: dev.traurige.kayoko
+Name: Kayoko
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Description: Feature rich clipboard manager for iOS
+Maintainer: Traurige <hello@traurige.dev>
+Author: Traurige <hello@traurige.dev>
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Installed-Size: 956
+Filename: debs/dev.traurige.kayoko_1.4.2_iphoneos-arm64.deb
+Size: 79646 
+MD5sum: adfae9702c7075f5970ae5bb85720c45
+SHA1: 4069dbd11c7ac784a777140761e9ba55c3f1d66e
+SHA256: a4a2f739ddcd7d53915cb17a05d48a8fb7d5f2be1fa96c3e16faadd1e48aeb2e
+Icon: https://zeex-xd.github.io/icons/Kayoko.png
+Depiction: https://pinpal.github.io/Sileo-Depiction-WebViews/?json=https://zeex-xd.github.io/depictions/Kayoko.json&name=Kayoko&dev=Zeex
+SileoDepiction: https://zeex-xd.github.io/depictions/Kayoko.json
+
+Package: org.swift.protobuf.swiftprotobuf
+Name: SwiftProtobuf
+Description: Plugin and runtime library for using protobuf with Swift
+Maintainer: eevee
+Author: eevee
+Section: System
+Tag: role::developer
+Architecture: iphoneos-arm64
+Version: 1.26.0
+Installed-Size: 9564
+Filename: debs/org.swift.protobuf.swiftprotobuf_1.26.0_iphoneos-arm64.deb
+Size: 1270968
+MD5sum: e96d2861c20ad33e1f0eb15b372478e7
+SHA1: f161ca3239740fe4ebb858d50cd1d12577da8b71
+SHA256: 9656de5e818241d8005d5cb4a6f8723dcc12274b38e79dd076d0f3caf87a40d5
+
+Package: com.eevee.spotify
+Name: EeveeSpotify
+Description: A tweak to get Spotify Premium for free, just like Spotilife
+Maintainer: Eevee
+Author: Eevee
+Section: Tweaks
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 4.6
+Installed-Size: 2568
+Filename: debs/com.eevee.spotify_4.6_iphoneos-arm64.deb
+Size: 518648
+MD5sum: 1f41b81858360e535f717ad18ed75e98
+SHA1: ae4c633ee9fa5f2f6f68f5d9d7d90087f856b4b7
+SHA256: 9734e7c3a78e9e312a10094744e0b2da93762189a6c07a9046ec8e734b8173a8
+
+
