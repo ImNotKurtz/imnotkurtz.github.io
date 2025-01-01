@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurtz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <img id="profile-img" alt="Imagem de Perfil" class="profile-img" style="display: block;" src="img.jpg">
+
+        <div class="links">
+            <a id="youtube-link" href="https://www.youtube.com/@anotherkurtz" target="_blank" class="youtube" style="display: inline-block;">
+                <i class="fab fa-youtube"></i>
+            </a>
+            </a>
+	<a id="sileo-link" href="sileo://source/https://github.com/ImNotKurtz" target="_blank" class="sileo" style="display: inline-block; transition: transform 0.3s ease;">
+    <img src="sileo.png" alt="Sileo Icon" class="profile-img" style="width: 30px; height: 30px; transition: transform 0.3s ease, filter 0.3s ease; margin-top: -2px;">
+	</a>
+	<a id="telegram-link" href="https://t.me/empilhador" target="_blank" class="telegram" style="display: inline-block;">
+   	 <i class="fab fa-telegram" style="margin-top: 3px; display: inline-block;"></i>
+	</a>
+        </div>
+    <div></div></div>
+
+    <script>
+        fetch('update.php')
+            .then(response => response.json())
+            .then(data => {
+
+                const profileImg = document.getElementById('profile-img');
+                if (data.photo) {
+                    profileImg.src = data.photo;
+                    profileImg.style.display = 'block';
+                }
+
+                function updateLink(id, linkData) {
+                    const linkElement = document.getElementById(id);
+                    if (linkData.active && linkData.url) {
+                        linkElement.href = linkData.url;
+                        linkElement.style.display = 'inline-block';
+                    }
+                }
+
+                updateLink('instagram-link', data.links.instagram);
+                updateLink('instagram2-link', data.links.instagram2);
+                updateLink('youtube-link', data.links.youtube);
+                updateLink('telegram-link', data.links.telegram);
+                updateLink('twitter-link', data.links.twitter);
+                updateLink('telegram-link', data.links.telegram);
+                updateLink('tiktok-link', data.links.tiktok);
+                updateLink('sileo-link', data.links.sileo);
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    </script>
+</body>
+</html>
