@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurtz xD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Imagem de Perfil -->
+        <img id="profile-img" alt="Imagem de Perfil" class="profile-img" src="img.jpg">
+
+        <!-- Links -->
+        <div class="links">
+            <a id="youtube-link" href="https://www.youtube.com/@anotherkurtz" target="_blank" class="youtube" aria-label="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a id="sileo-link" href="sileo://source/https://github.com/ImNotKurtz" target="_blank" class="sileo" aria-label="Sileo">
+                <img src="sileo.png" alt="Sileo Icon" class="icon-small">
+            </a>
+
+            <a id="telegram-link" href="https://t.me/empilhador" target="_blank" class="telegram" aria-label="Telegram">
+                <i class="fab fa-telegram"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script>
+        fetch('update.php')
+            .then(response => response.json())
+            .then(data => {
+                const profileImg = document.getElementById('profile-img');
+
+                // Atualizar imagem de perfil
+                if (data.photo) {
+                    profileImg.src = data.photo;
+                }
+
+                // Atualizar links
+                function updateLink(id, linkData) {
+                    const linkElement = document.getElementById(id);
+                    if (linkElement && linkData.active && isValidURL(linkData.url)) {
+                        linkElement.href = linkData.url;
+                        linkElement.style.display = 'inline-block';
+                    } else {
+                        linkElement.style.display = 'none'; // Oculta se inválido
+                    }
+                }
+
+                // Validação de URL
+                function isValidURL(string) {
+                    try {
+                        new URL(string);
+                        return true;
+                    } catch (_) {
+                        return false;
+                    }
+                }
+
+                // Atualizar os links dinamicamente
+                updateLink('youtube-link', data.links.youtube);
+                updateLink('telegram-link', data.links.telegram);
+                updateLink('sileo-link', data.links.sileo);
+            })
+            .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
+    </script>
+</body>
+
+</html>
